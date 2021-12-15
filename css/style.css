@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+	/*background-image: url(../imagens/fundo4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	font-family: 'Montserrat' ;
+}
+
+.med{
+	position: absolute;
+	width: 400px;
+	top: 100%;
+	left: 4%;
+
+}
+
+header{
+
+	background-color: #FFF;
+	height: 280px;
+	width: auto;
+	/*background-color: rgba(70,183,222,0.4);*/ 
+	box-shadow: 0 0 10px 0 #000000;
+
+}
+
+
+.info-lista{
+	width: 1300px;
+	margin: 0 auto;
+}	
+
+.info-lista li{
+	display: inline-block;
+	text-align: right;
+	padding: 70px 80px 0 80px;
+}
+
+
+
+header p{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+header h1{
+	font-weight: bold;
+	font-size: 25px;	
+
+}
+
+.tel{
+	color: #46b7de;
+}
+
+
+
+nav{
+	padding: 30px 0;
+	margin: 80px auto;
+	border-top: 0.5px solid #24a1cd;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px; 
+}
+
+nav a{
+	padding: 5px 10px 5px 10px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:#24a1cd;
+	transition: 400ms;
+}
+
+#marcado a{
+	color: #46b7de;
+}
+
+.menu{
+	background-image: url(../imagens/fundo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin:20px 0 20px 140px; 
+	width: 250px;
+	height: 207px;
+	border: solid 1px #46b7de;
+	border-radius: 5px;
+    /*background-color: rgba(70,183,222,0.4);*/
+    box-shadow: 3px 3px 8px 0px #000000;
+    float: left;
+}
+
+
+
+
+.menu li{
+	padding: 25px 0 27px 0;
+
+}
+
+.menu a{
+	padding: 15px 0 25px 15px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+.menu li:hover{
+	background-color: #46b7de;
+	transition-timing-function: ease-in-out;
+	transition:  400ms ;
+}
+
+.form{
+	background-image: url(../imagens/fundo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin:20px 0 20px 500px; 
+	width: 600px;
+	height: 900px;
+	/*background-color:  rgba(70,183,222,0.4);*/
+	box-shadow: 3px 3px 8px 0px #000000;
+	border: solid 0.5px #46b7de;
+	border-radius: 5px;
+
+}
+
+#avaliacao .form{
+	background-image: url(../imagens/fundo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin:20px 0 20px 500px; 
+	width: 600px;
+	height: 1800px;
+	/*background-color:  rgba(70,183,222,0.4);*/
+	box-shadow: 3px 3px 8px 0px #000000;
+	border: solid 0.5px #46b7de;
+	border-radius: 5px;
+
+}
+
+.titulo{
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.cabecalho{
+	height: 50px;
+	width: 100%;
+	background-color: #46b7de ;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 3px;
+}
+
+.formulario{
+	padding: 20px 0 0 0;
+	width: 600px;
+
+}
+
+#mensagem-erro{
+	font-weight: bold;
+	color: red;
+}
+
+
+form{
+	padding: 40px;
+	width: 600px;
+}
+
+form label{
+	color: black;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px 0 3px 0;
+}
+
+.legenda{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	color: black;
+}
+
+#mensagem-erro{
+	margin: 0 0 0 40px;
+}
+
+
+.campo{
+	border: solid 1px #46b7de;
+	border-radius: 3px;
+	padding: 6px;
+}
+
+.campo-nome{
+	width: 400px;
+}
+.campo-data{
+	width: 200px;
+}
+
+.campoEndereco{
+	width: 300px;
+}
+
+.campoNumero{
+	width: 20px;
+}
+
+.campo-grande{
+	resize: none;
+	width: 300px;
+	height: 250px;
+}
+
+.bto-principal{
+	padding: 8px;
+	margin-top: 10px;
+	font-size: 20px;
+	background-color:#46b7de;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.bto-principal:hover{
+	padding: 9px;
+	font-size: 22px;
+}
+
+.bto-principal:active{
+	padding: 8px;
+	font-size: 20px;
+
+}
+
+.prontuarioTabela{
+	font-weight: bold;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.tabela{
+	border-collapse: collapse;
+	border-top-left-radius:  10px;
+	border-top-right-radius:  10px;
+	overflow: hidden;
+  }
+
+
+.tabela tr th{
+	background-color: #46b7de ;
+	border-left: solid 1px black ;
+	border-right: solid 1px black ;
+	border-bottom: solid 1px black ;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.tabela tr td{
+	border: solid 1px black ;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+}
+
+footer{
+	background: #46b7de;
+	height: 200px;
+
+}
+
+.final{
+	height: 200px;
+	width: 600px;
+	margin: 0 auto;
+	background: #24a1cd;
+}
+
+.final p {
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 80px 0 0 0 ;
+}
+
+#servicos .menu ul .cadastro
+{ 
+	background-color: #46b7de;
+}
+
+#prontuario .menu ul .prontuario{
+	background-color: #46b7de;
+}
+#avaliacao .menu ul .ficha{
+	background-color: #46b7de;
+}
+
+
+
+
+
+/*verde 97d8dc
+
+roxo 6c52c4
+
+branco fcf9fc
+
+cinza d5d0c8
+
+
+azul 46b7de
+
+outro verde a8c337
+
+rosinha e3dee2*/

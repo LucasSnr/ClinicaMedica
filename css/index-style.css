@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+body{
+	/*background-image: url(../imagens/fundo4.jpg);
+	background-repeat: no-repeat ;
+	background-size: cover;*/
+
+ font-family: 'Montserrat';
+}
+
+header{
+
+	background-color: #FFF;
+	height: 280px;
+	/*background-color: rgba(70,183,222,0.4);*/
+	box-shadow: 0 0 10px 0 #000000;
+}
+
+.info-lista{
+	width: 1300px;
+	margin: 0 auto;
+}	
+
+.info-lista li{
+	display: inline-block;
+	text-align: right;
+	padding: 70px 80px 0 80px;
+}
+
+
+
+header p{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+header h1{
+	font-weight: bold;
+	font-size: 25px;	
+
+}
+
+.tel{
+	color: #46b7de;
+}
+
+
+nav{
+
+	padding: 30px 0;
+	margin: 80px auto;
+	border-top: 0.5px solid #24a1cd;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px; 
+}
+
+nav a{
+	padding: 5px 10px 5px 10px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:#24a1cd;
+	transition: 400ms;	
+}
+
+#marcado a{
+	color: #46b7de ;
+}
+
+
+.conteudo1{
+	background-image: url(../imagens/fundo.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 250px 0 250px 0; 
+}
+
+.conteudo1 h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.texto{
+	width: 540px;
+	margin-left: 300px;
+	position: top;
+}
+
+.texto ul{
+	text-align: center;
+	padding: 30px;
+}
+
+.texto a{
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #a8c337;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+.conteudo{
+	margin: 40px auto 0 auto;
+	width: 1200px;
+	height: 789px;
+
+}
+
+.conteudo2{
+	margin: 20px auto;
+	width: 1200px;
+	height: 600px;
+
+}
+
+.mapa-principal{
+	width: 1100px;
+	margin: 0 auto;
+
+}
+
+.conteudo h1{
+	color: #46b7de;
+	padding: 80px 0 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.conteudo h2{
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0 0 20px 0; 
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+
+.conteudo2 h3{
+	color: #46b7de;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px;
+}
+
+.conteudo p{
+	font-weight: bold;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.img1{
+	width: 100%;
+	background-attachment: fixed;
+
+}
+
+.img2{
+	float: left;
+	padding-right: 80px; 
+}
+
+footer{
+	background: #46b7de;
+	height: 200px;
+}
+
+.final{
+	height: 200px;
+	width: 600px;
+	margin: 0 auto;
+	background: #24a1cd;
+}
+
+.final p {
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 80px 0 0 0 ;
+}
+
+
+
+/*verde 97d8dc
+
+roxo 6c52c4
+
+branco fcf9fc
+
+cinza d5d0c8
+
+
+azul 46b7de
+
+outro azul 24a1cd
+
+outro verde a8c337
+
+rosinha e3dee2*/

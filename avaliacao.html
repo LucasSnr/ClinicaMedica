@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Barra Med</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="avaliacao">	
+		<header>
+				<ul class="info-lista">
+					<li>
+						<p class="tel">doenca +1 23456-7890</p>
+						<p>Mount Sunday (Edoras), Christchurch - Canterbury.</p>
+					</li>
+					<li>
+						<h1>Barra Med</h1>
+					</li>
+					<li>
+						<p>Horários</p>
+						<p class="tel"> Seg - Sex: 8:00 - 21:00</p>
+						<p>Sab-Dom: Fechado</p>
+					</li>
+				</ul>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li id="marcado"><a href="servicos.html">Serviços</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<img src="imagens/med.png" class="med" >
+
+		<aside class="menu">
+				<ul>
+					<li class="cadastro"><a href="servicos.html">Cadastro</a></li>
+					<li class="ficha"><a href="avaliacao.html">Ficha de Avaliação</a></li>
+					<li class="prontuario"><a href="prontuario.html" >Prontuário</a></li>
+				</ul>			
+		</aside>
+		<section class="form">
+			<div class="cabecalho">
+				<h2 class="titulo">Preencha com suas informações do paciente</h2>
+			</div>
+			<div class="formulario">
+
+				<form id="avaliacao1">
+					<label for="medico">Medico responsal</label><br>
+					<input id="medico" type="text" name="medico" placeholder="" class="campo campo-nome"><br>
+					<label for="medicoCrm">CRM</label><br>
+					<input id="medicoCrm" type="text" name="medicoCrm" placeholder="" class="campo campo-medio"><br>
+					<label for="nome">Nome do Paciente</label><br>
+					<input id="nome" name="nome" type="text" placeholder="Seu nome completo" class="campo campo-nome"><br>
+					<label for="atendimento">Data de atendimento</label><br>
+					<input id="atendimento" name="atendimento" type="date" placeholder="digite o peso do seu paciente" class="campo campo-data"><br>
+					<label for="queixas">Queixas e Duração</label><br>
+					<textarea id="queixas" name="queixas" type="text" placeholder="" class="campo campo-grande"></textarea><br>
+					<label for="doenca">História da doenca</label><br>
+					<textarea id="doenca" name="doenca" type="text" placeholder="" class="campo campo-grande"></textarea><br>
+					<label for="alergias">Alergias a remédios</label><br>
+					<textarea id="alergias" type="text" name="alergias" placeholder="" class="campo campo-grande"></textarea><br>
+					<label for="fumante">Fuma?</label><br>
+					<select id="fumante" name="fumante" class="">
+						<option>Sim</option>
+						<option>Não</option>
+					</select><br>
+					<label for="tratamento">Faz algum tratamento?</label><br>
+					<select id="tratamento" name="tratamento" class="">
+						<option>Sim</option>
+						<option>Não</option>
+					</select><br>
+					<label for="tipoTratamento">Se sim, qual tipo?</label><br>
+					<input id="tipoTratamento" type="text" name="tipoTratamento" placeholder="" class="campo campo-nome"><br>
+					<label for="remedio">Toma algum remedio?</label><br>
+					<select id="remedio" name="tremedio" class="">
+						<option>Sim</option>
+						<option>Não</option>
+					</select><br>
+					<label for="tipoRemedio">Se sim, qual remédio?</label><br>
+					<input id="tipoRemedio" type="text" name="tipoRemedio" placeholder="" class="campo campo-nome"><br>
+					<button id="adicionar-avaliacao" class="botao bto-principal">Adicionar</button>
+				</form>
+				<ul id="mensagem-erro">
+
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<div class="final">
+				<p>
+					Lucas Sebastião RA:1039495
+				</p>
+			</div>	
+		</footer>
+		<script src="js/validaAvaliacao.js"></script>
+
+	</body>
+</html>
